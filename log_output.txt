@@ -1,0 +1,58 @@
+[Jeong-Hoon-Yang] Sun May 1 15:27:43 2022 +0900 RequirementList최종 78a84de
+[Jeong-Hoon-Yang] Sun May 1 15:26:31 2022 +0900 RequirementList최종 b942227
+[Jeong-Hoon-Yang] Sun May 1 15:25:38 2022 +0900 RequirementList최종수정 0dc515d
+[Jeong-Hoon-Yang] Sun May 1 15:23:20 2022 +0900 RequirmentList,ActorDiscription 최종본 추가 206446a
+[KimSeHwan] Sun May 1 13:26:12 2022 +0900 Merge pull request #22 from Jeong-Hoon-Yang/Kim_Se_Hwan 81e4235
+[KimSeHwan] Sun May 1 13:25:40 2022 +0900 5,10,11,12 수정 53d72f4
+[Kkyumin] Sat Apr 30 21:46:34 2022 +0900 Merge pull request #21 from Jeong-Hoon-Yang/Kyumin b9da848
+[kyumin] Sat Apr 30 21:46:05 2022 +0900 update README.md 8dd33db
+[kyumin] Sat Apr 30 21:45:40 2022 +0900 (1,2,3,4)_info c5f2a7c
+[Kkyumin] Sat Apr 30 21:17:13 2022 +0900 Merge pull request #20 from Jeong-Hoon-Yang/Kyumin fda6d2d
+[kyumin] Sat Apr 30 21:16:20 2022 +0900 (1,2,3,4) usecase Diagram f358919
+[Kkyumin] Sat Apr 30 20:59:29 2022 +0900 Merge pull request #19 from Jeong-Hoon-Yang/Kyumin f23a521
+[kyumin] Sat Apr 30 20:57:32 2022 +0900 (1,2,3,4)_usecase_des 83b73e1
+[Kkyumin] Sat Apr 30 20:47:40 2022 +0900 Merge pull request #18 from Jeong-Hoon-Yang/Kyumin e747ae4
+[kyumin] Sat Apr 30 20:41:39 2022 +0900 (1,2,3,4)_info ba9bb5e
+[Kkyumin] Sat Apr 30 20:28:55 2022 +0900 Merge pull request #17 from Jeong-Hoon-Yang/Kyumin d9a2bae
+[kyumin] Sat Apr 30 20:28:08 2022 +0900 test 646936c
+[KimSeHwan] Sat Apr 30 18:56:21 2022 +0900 Merge pull request #16 from Jeong-Hoon-Yang/Kim_Se_Hwan d0c9f9f
+[KimSeHwan] Sat Apr 30 18:55:54 2022 +0900 5,10,11,12에 대한 내용 1017194
+[KimSeHwan] Sat Apr 30 16:33:50 2022 +0900 Merge pull request #15 from Jeong-Hoon-Yang/Kim_Se_Hwan 2d3ec11
+[KimSeHwan] Sat Apr 30 16:32:52 2022 +0900 test3 df306b6
+[KimSeHwan] Sat Apr 30 16:27:01 2022 +0900 Merge pull request #14 from Jeong-Hoon-Yang/Kim_Se_Hwan 32159f4
+[KimSeHwan] Sat Apr 30 16:25:33 2022 +0900 r 7f6b615
+[Jeong-Hoon-Yang] Sat Apr 30 16:24:51 2022 +0900 Create test2.txt 229cb30
+[KimSeHwan] Sat Apr 30 16:23:33 2022 +0900 Merge pull request #13 from Jeong-Hoon-Yang/Kim_Se_Hwan 0fda192
+[KimSeHwan] Sat Apr 30 16:22:59 2022 +0900 test 5cc73c0
+[KimSeHwan] Sat Apr 30 16:05:37 2022 +0900 Merge pull request #12 from Jeong-Hoon-Yang/test3 bf11e8d
+[KimSeHwan] Sat Apr 30 16:05:11 2022 +0900 test3 6338143
+[KimSeHwan] Sat Apr 30 15:53:50 2022 +0900 Merge pull request #11 from Jeong-Hoon-Yang/test2 cda5111
+[KimSeHwan] Sat Apr 30 15:53:23 2022 +0900 test2 6f42543
+[Jeong-Hoon-Yang] Sat Apr 30 15:51:48 2022 +0900 Update README.md f77bfa5
+[Jeong-Hoon-Yang] Sat Apr 30 15:49:40 2022 +0900 Merge pull request #10 from Jeong-Hoon-Yang/Jeong-Hoon 2cbe7f8
+[Jeong-Hoon-Yang] Sat Apr 30 15:49:00 2022 +0900 UI, UseCase Description 추가 5f498ec
+[KimSeHwan] Sat Apr 30 15:31:14 2022 +0900 Merge pull request #9 from Jeong-Hoon-Yang/SeHwan f5949a0
+[KimSeHwan] Sat Apr 30 15:30:16 2022 +0900 testb bbf6387
+[KimSeHwan] Sat Apr 30 15:07:43 2022 +0900 test2 29f4312
+[KimSeHwan] Sat Apr 30 15:05:03 2022 +0900 test aa41f65
+[Jeong-Hoon-Yang] Sat Apr 30 14:55:17 2022 +0900 Update README.md c7653f5
+[Jeong-Hoon-Yang] Sat Apr 30 14:54:26 2022 +0900 Merge pull request #8 from Jeong-Hoon-Yang/Jeong-Hoon 1c811c3
+[Jeong-Hoon-Yang] Sat Apr 30 14:54:05 2022 +0900 UseCase_Diagram(6,7,8,9) 추가 e12aca5
+[Jeong-Hoon-Yang] Sat Apr 30 13:50:18 2022 +0900 Merge pull request #7 from Jeong-Hoon-Yang/Jeong-Hoon 3d636dc
+[Jeong-Hoon-Yang] Sat Apr 30 13:49:22 2022 +0900 RequirementList(6,7,8,9) 수정 fbd5cdf
+[Jeong-Hoon-Yang] Sat Apr 30 13:19:06 2022 +0900 Merge pull request #6 from Jeong-Hoon-Yang/Jeong-Hoon 7d3e2e5
+[Jeong-Hoon-Yang] Sat Apr 30 13:18:11 2022 +0900 test 4843b4f
+[Kkyumin] Sat Apr 30 13:04:35 2022 +0900 (1,2,3,4) Requirement_list 5d6da8d
+[Kkyumin] Sat Apr 30 13:03:15 2022 +0900 (1,2,3,4) Actor_description e86ed9d
+[Kkyumin] Fri Apr 29 22:14:35 2022 +0900 Update README.md 78e66ec
+[Jeong-Hoon-Yang] Fri Apr 29 20:35:36 2022 +0900 Merge pull request #5 from Jeong-Hoon-Yang/Jeong-Hoon d6b50be
+[Jeong-Hoon-Yang] Fri Apr 29 20:35:13 2022 +0900 README d6c2d62
+[Jeong-Hoon-Yang] Fri Apr 29 20:34:44 2022 +0900 Merge pull request #4 from Jeong-Hoon-Yang/Jeong-Hoon 371d484
+[Jeong-Hoon-Yang] Fri Apr 29 20:33:59 2022 +0900 Actor Discription (6,7,8,9) baa075d
+[Jeong-Hoon-Yang] Fri Apr 29 20:14:23 2022 +0900 Merge pull request #3 from Jeong-Hoon-Yang/Jeong-Hoon 5b3081f
+[Jeong-Hoon-Yang] Fri Apr 29 20:13:40 2022 +0900 README 03a8134
+[Jeong-Hoon-Yang] Fri Apr 29 20:05:13 2022 +0900 Merge pull request #2 from Jeong-Hoon-Yang/Jeong-Hoon 0709d5d
+[Jeong-Hoon-Yang] Fri Apr 29 20:04:44 2022 +0900 RequirementList 6,7,8,9 8f5f5ae
+[Jeong-Hoon-Yang] Fri Apr 29 20:03:47 2022 +0900 Merge pull request #1 from Jeong-Hoon-Yang/Jeong-Hoon aed9b24
+[Jeong-Hoon-Yang] Fri Apr 29 20:03:19 2022 +0900 Requirement List 6,7,8,9 cddc11b
+[Jeong-Hoon-Yang] Sun Apr 24 18:06:05 2022 +0900 Initial commit cb1c0c3
