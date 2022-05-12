@@ -81,3 +81,10 @@
 - Requirment List, Actor Description 최종본 업로드 (양정훈)
 
 - UI Design 최종본 업로드(이규민)
+
+  22.05.12
+
+- HW2 RequirmentList 추가 (양정훈)
+
+  - 판매 의류 등록 및 조회 기능
+  - 상품 정보 검색 및 상품 구매 기능
