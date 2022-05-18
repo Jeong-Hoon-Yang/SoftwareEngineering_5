@@ -1,6 +1,62 @@
+[KimSeHwan] Wed May 18 18:11:12 2022 +0900 Merge pull request #48 from Jeong-Hoon-Yang/kim-se-hwan- 6f3b75a
+[KimSeHwan] Wed May 18 18:10:54 2022 +0900 report a1745ff
+[KimSeHwan] Wed May 18 02:07:24 2022 +0900 Merge pull request #47 from Jeong-Hoon-Yang/kim-se-hwan- 100712d
+[KimSeHwan] Wed May 18 02:07:05 2022 +0900 diagram완성 8bffe1f
+[KimSeHwan] Wed May 18 02:01:25 2022 +0900 Merge pull request #46 from Jeong-Hoon-Yang/kim-se-hwan 5c3122c
+[KimSeHwan] Wed May 18 02:01:07 2022 +0900 diagram 578b769
+[KimSeHwan] Wed May 18 01:55:50 2022 +0900 Merge pull request #45 from Jeong-Hoon-Yang/_Kim_Se_Hwan_ 8c7c367
+[KimSeHwan] Wed May 18 01:55:24 2022 +0900 보고서초안 22e331e
+[Jeong-Hoon-Yang] Tue May 17 22:17:27 2022 +0900 Merge pull request #44 from Jeong-Hoon-Yang/Jeong-Hoon c3f0661
+[Jeong-Hoon-Yang] Tue May 17 22:16:58 2022 +0900 UML파일 추가 026b551
+[Jeong-Hoon-Yang] Tue May 17 22:15:04 2022 +0900 Merge pull request #43 from Jeong-Hoon-Yang/Jeong-Hoon 5ba033d
+[Jeong-Hoon-Yang] Tue May 17 22:14:43 2022 +0900 UseCaseDiagram 등 수정 356ff64
+[KimSeHwan] Tue May 17 20:30:29 2022 +0900 Merge pull request #42 from Jeong-Hoon-Yang/Kim_Se_Hwan_ acca58c
+[KimSeHwan] Tue May 17 20:29:50 2022 +0900 회원관리시스템초안 ec9eab2
+[Kkyumin] Mon May 16 22:32:44 2022 +0900 Merge pull request #41 from Jeong-Hoon-Yang/Kyumin 07a0feb
+[kyumin] Mon May 16 22:32:25 2022 +0900 Communication Diagram 7f7dd6a
+[Jeong-Hoon-Yang] Mon May 16 20:21:27 2022 +0900 Merge pull request #40 from Jeong-Hoon-Yang/Jeong-Hoon bc0c908
+[Jeong-Hoon-Yang] Mon May 16 20:20:05 2022 +0900 HW2 a1974a4
+[KimSeHwan] Mon May 16 17:55:41 2022 +0900 Merge pull request #39 from Jeong-Hoon-Yang/Kim_Se_Hwan_ 80388c9
+[KimSeHwan] Mon May 16 17:54:39 2022 +0900 usecasediagram add7e5e
+[Jeong-Hoon-Yang] Mon May 16 17:43:50 2022 +0900 Merge pull request #38 from Jeong-Hoon-Yang/Jeong-Hoon 70d0c02
+[Jeong-Hoon-Yang] Mon May 16 17:43:19 2022 +0900 UseCaseDescription 수정 73afb2a
+[Kkyumin] Mon May 16 14:59:42 2022 +0900 Merge pull request #37 from Jeong-Hoon-Yang/Kyumin e04f1df
+[kyumin] Mon May 16 14:59:22 2022 +0900 update README.md 1053031
+[Kkyumin] Mon May 16 10:59:57 2022 +0900 Merge pull request #36 from Jeong-Hoon-Yang/Kyumin 748b50b
+[kyumin] Mon May 16 10:59:11 2022 +0900 hw2_communication diagram 876687f
+[Jeong-Hoon-Yang] Mon May 16 09:55:37 2022 +0900 Merge pull request #35 from Jeong-Hoon-Yang/Jeong-Hoon 27290be
+[Jeong-Hoon-Yang] Mon May 16 09:54:53 2022 +0900 HW2_JH f803480
+[kyumin] Thu May 12 22:05:43 2022 +0900  Update README.md a0aa1c7
+[Kkyumin] Thu May 12 22:01:20 2022 +0900 Merge pull request #34 from Jeong-Hoon-Yang/Kyumin 2911c11
+[kyumin] Thu May 12 22:00:41 2022 +0900 hw3_UseCaseDiagram_(1,2,3) 9a18d12
+[kyumin] Thu May 12 22:00:27 2022 +0900 hw2_UseCaseDescription_(1,2,3) b8101a8
+[kyumin] Thu May 12 22:00:05 2022 +0900 hw2_RequirementList_(1,2,3) 8d1b91b
+[Jeong-Hoon-Yang] Thu May 12 16:41:30 2022 +0900 Update README.md 3d700e2
+[Jeong-Hoon-Yang] Thu May 12 16:40:12 2022 +0900 Merge pull request #33 from Jeong-Hoon-Yang/Jeong-Hoon 0339cb0
+[Jeong-Hoon-Yang] Thu May 12 16:39:53 2022 +0900 HW2 RequirmentList 추가 ecb79e7
+[KimSeHwan] Mon May 2 01:11:53 2022 +0900 Merge pull request #32 from Jeong-Hoon-Yang/Kim_Se_Hwan_ be5b8cf
+[KimSeHwan] Mon May 2 01:11:27 2022 +0900 testnewbranch 7447a52
+[KimSeHwan] Mon May 2 00:57:07 2022 +0900 Merge pull request #31 from Jeong-Hoon-Yang/Kim_Se_Hwan 6612b19
+[KimSeHwan] Mon May 2 00:56:31 2022 +0900 보고서최종본 1c796d2
+[Jeong-Hoon-Yang] Sun May 1 20:53:01 2022 +0900 Update UseCase_Description(6,7,8,9).md 203a30f
+[Jeong-Hoon-Yang] Sun May 1 20:47:05 2022 +0900 Update UseCase_Description(6,7,8,9).md c3d1b13
+[Jeong-Hoon-Yang] Sun May 1 20:45:36 2022 +0900 Merge pull request #30 from Jeong-Hoon-Yang/Jeong-Hoon fb3ebc9
+[Jeong-Hoon-Yang] Sun May 1 20:45:05 2022 +0900 output.txt ad62662
+[Kkyumin] Sun May 1 18:20:16 2022 +0900 Merge pull request #29 from Jeong-Hoon-Yang/Kyumin fb8d9e8
+[kyumin] Sun May 1 18:18:48 2022 +0900 update README.md 2c1fa1b
+[KimSeHwan] Sun May 1 18:05:45 2022 +0900 Merge pull request #28 from Jeong-Hoon-Yang/Kim_Se_Hwan cf70fdb
+[KimSeHwan] Sun May 1 18:00:46 2022 +0900 최종보고서의 초안 9141a77
+[Kkyumin] Sun May 1 16:47:33 2022 +0900 Merge pull request #27 from Jeong-Hoon-Yang/Kyumin 3e405ed
+[kyumin] Sun May 1 16:47:05 2022 +0900 UI&Usecase 보고서용 8ac4a49
+[Jeong-Hoon-Yang] Sun May 1 15:31:16 2022 +0900 Update README.md cad98dd
+[Jeong-Hoon-Yang] Sun May 1 15:28:42 2022 +0900 Update RequirementList_최종.md 3d4f647
+[Jeong-Hoon-Yang] Sun May 1 15:28:09 2022 +0900 Merge pull request #26 from Jeong-Hoon-Yang/Jeong-Hoon aaec039
 [Jeong-Hoon-Yang] Sun May 1 15:27:43 2022 +0900 RequirementList최종 78a84de
+[Jeong-Hoon-Yang] Sun May 1 15:26:56 2022 +0900 Merge pull request #25 from Jeong-Hoon-Yang/Jeong-Hoon e98b0bd
 [Jeong-Hoon-Yang] Sun May 1 15:26:31 2022 +0900 RequirementList최종 b942227
+[Jeong-Hoon-Yang] Sun May 1 15:26:03 2022 +0900 Merge pull request #24 from Jeong-Hoon-Yang/Jeong-Hoon b364739
 [Jeong-Hoon-Yang] Sun May 1 15:25:38 2022 +0900 RequirementList최종수정 0dc515d
+[Jeong-Hoon-Yang] Sun May 1 15:24:05 2022 +0900 Merge pull request #23 from Jeong-Hoon-Yang/Jeong-Hoon 4352574
 [Jeong-Hoon-Yang] Sun May 1 15:23:20 2022 +0900 RequirmentList,ActorDiscription 최종본 추가 206446a
 [KimSeHwan] Sun May 1 13:26:12 2022 +0900 Merge pull request #22 from Jeong-Hoon-Yang/Kim_Se_Hwan 81e4235
 [KimSeHwan] Sun May 1 13:25:40 2022 +0900 5,10,11,12 수정 53d72f4
