@@ -113,3 +113,7 @@
 
   - 회원 가입, 회원 탈퇴
   - 로그인, 로그아웃
+
+    22.05.30
+
+- HW3 sourcecode Product class 완성 & Member class 제작중 (양정훈)
