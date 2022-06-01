@@ -1,6 +1,8 @@
 #pragma once
 #include <vector>
-#include "transactionInfo.h"
+#include <string>
+
+using namespace std;
 
 class Product {
 	string sellerID;
