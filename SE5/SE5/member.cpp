@@ -49,28 +49,40 @@ void Member::deleteInfoRight(Member& m) {
 	}
 }
 
-void Member::getTransactionInfoList() {
-
+vector<TransactionInfo> Member::getTransactionInfoList() {	
+	vector<TransactionInfo> tList;
+	for (int i = 0; i < TransactionInfoList.size(); i++) {
+		if (TransactionInfoList[i].getBuyer().id == this->id) {
+			tList.push_back(TransactionInfoList[i]);
+		}
+	}
+	
+	return tList;
 }
 
-/*
-typedef enum {
-	STATE_LOGIN,
-	STATE_LOGOUT
-} login_state;
+void Member::addPurchaseInfo(Product product) {	// 구매내역 추가
+	Member tmp;
 
-class Member {
-	string id;
-	string password;
-	string name;
-	int registerNumber;
-	login_state loginState;
+	for (int i = 0; i < memberList.size(); i++) {
+		if (memberList[i].id == product.getSellerID()) {
+			tmp = memberList[i];
+		}
+	}
 
-public:
-	void storeMemInfo();
-	void verifyIdPw();
-	void logout();
-	void deleteInfoRight();
-	void getTransactionInfoList();
-};
-*/
+	TransactionInfo::createTransInfo(tmp, *this, product);
+}
+
+void Member::addSaleProduct(string productName, string productCompany, int price, int quantity) {	// 판매 의류 등록
+	Product::createProduct(this->id, productName, productCompany, price, quantity);
+}
+
+vector<TransactionInfo> Member::getSaleProductList() {	// 판매 의류 조회
+	vector<TransactionInfo> tList;
+	for (int i = 0; i < TransactionInfoList.size(); i++) {
+		if (TransactionInfoList[i].getSeller().id == this->id) {
+			tList.push_back(TransactionInfoList[i]);
+		}
+	}
+
+	return tList;
+}

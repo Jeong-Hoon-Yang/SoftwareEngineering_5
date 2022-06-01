@@ -4,8 +4,6 @@
 
 using namespace std;
 
-vector<Member> memberList;
-
 void Member::storeMemInfo(string id, string password, string name, int registerNumber) {
 	for (int i = 0; i < memberList.size(); i++) {
 		if (memberList[i].id == id) {	// ID is already registered then return function

@@ -20,3 +20,5 @@ class Member {
 public:
 	void storeMemInfo(string id, string password, string name, int registeredNumber);
 };
+
+static vector<Member> memberList;

@@ -2,8 +2,6 @@
 #include <vector>
 #include "transactionInfo.h"
 
-vector<Product> productList;	// List of Registered Product
-
 class Product {
 	string sellerID;
 	string productName;
@@ -20,5 +18,8 @@ public:
 	void setPurchaseSatisfaction(int satis);
 	void getSatisfactionAndTotal();
 	void getRegisteredProductInfo();
-	void createProduct(string sellerID, string productName, string productCompany, int price, int quantity);
+	static void createProduct(string sellerID, string productName, string productCompany, int price, int quantity);
+	string getSellerID();
 };
+
+static vector<Product> productList;	// List of Registered Product

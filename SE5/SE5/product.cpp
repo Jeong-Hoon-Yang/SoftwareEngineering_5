@@ -26,7 +26,7 @@ void Product::getRegisteredProductInfo() {	// case '3 1' && '3 2'
 
 void Product::createProduct(string sellerID, string productName, string productCompany, int price, int quantity) {	// case '3 1'
 	for (int i = 0; i < productList.size(); i++) {
-		if (productList[i].productname == productName) {	// productName is already registered then return function
+		if (productList[i].productName == productName) {	// productName is already registered then return function
 			cout << "already registered product" << endl;
 			return;
 		}
@@ -44,5 +44,9 @@ void Product::createProduct(string sellerID, string productName, string productC
 	tmp.evaluationNum = 0;
 	tmp.getRegisteredProductInfo();
 
-	memberList.push_back(tmp);
+	productList.push_back(tmp);
+}
+
+string Product::getSellerID() {
+	return this->sellerID;
 }

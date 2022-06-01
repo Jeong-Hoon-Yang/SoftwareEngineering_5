@@ -24,6 +24,12 @@
     <ClCompile Include="member.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="join.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="transacrionInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="member.h">
@@ -33,6 +39,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="product.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="join.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
