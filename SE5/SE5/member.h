@@ -2,10 +2,9 @@
 #include <string>
 #include <vector>
 #include "transactionInfo.h"
+#include "product.h"
 
 using namespace std;
-
-vector<Member> memberList;
 
 typedef enum {
 	STATE_LOGIN,
@@ -20,9 +19,14 @@ class Member {
 	login_state loginState;
 
 public:
-	void storeMemInfo(string id, string password, string name, int registeredNumber);
+	static void storeMemInfo(string id, string password, string name, int registeredNumber);
 	Member verifyIdPw(string id, string password);
 	void logout(Member& m);
 	void deleteInfoRight(Member& m);
-	void getTransactionInfoList();
+	vector<TransactionInfo> getTransactionInfoList();
+	void addPurchaseInfo(Product product);
+	void addSaleProduct(string productName, string productCompany, int price, int quantity);
+	vector<TransactionInfo> getSaleProductList();
 };
+
+static vector<Member> memberList;

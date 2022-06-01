@@ -127,11 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="join.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="member.cpp" />
     <ClCompile Include="product.cpp" />
+    <ClCompile Include="transacrionInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="join.h" />
     <ClInclude Include="member.h" />
     <ClInclude Include="product.h" />
     <ClInclude Include="transactionInfo.h" />
