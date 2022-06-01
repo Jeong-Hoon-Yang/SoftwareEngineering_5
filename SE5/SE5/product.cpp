@@ -21,7 +21,7 @@ void Product::getSatisfactionAndTotal() {	// case '5 1'
 }
 
 void Product::getRegisteredProductInfo() {	// case '3 1' && '3 2'
-	cout << productName << ' ' << productCompany << ' ' << price << ' ' << remainingQuantity + soldQuantity << endl;   
+	cout << productName << ' ' << productCompany << ' ' << price << ' ' << remainingQuantity + soldQuantity << endl;
 }
 
 void Product::createProduct(string sellerID, string productName, string productCompany, int price, int quantity) {	// case '3 1'

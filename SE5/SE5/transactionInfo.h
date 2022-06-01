@@ -1,9 +1,6 @@
 #pragma once
-#include <vector>
 #include "member.h"
 #include "product.h"
-
-using namespace std;
 
 class TransactionInfo {
 	Member seller;

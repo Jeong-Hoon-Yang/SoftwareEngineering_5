@@ -1,10 +1,11 @@
 #pragma once
-#include <string>
 #include <vector>
-#include "transactionInfo.h"
+#include <string>
 #include "product.h"
 
 using namespace std;
+
+class TransactionInfo;
 
 typedef enum {
 	STATE_LOGIN,

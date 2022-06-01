@@ -1,5 +1,6 @@
 #include <iostream>
 #include "member.h"
+#include "transactionInfo.h"
 
 void Member::storeMemInfo(string id, string password, string name, int registerNumber) {
 	for (int i = 0; i < memberList.size(); i++) {
@@ -33,7 +34,7 @@ Member Member::verifyIdPw(string id, string password) {
 }
 
 void Member::logout(Member& m) {
-	m.loginState == STATE_LOGOUT;
+	m.loginState = STATE_LOGOUT;
 	cout << m.id << endl;
 }
 
@@ -43,24 +44,23 @@ void Member::deleteInfoRight(Member& m) {
 			cout << m.id << endl;
 			memberList.erase(it);
 			// add here
-			// 등록한 상품들의 수량을 0으로 만드는 함수
 			return;
 		}
 	}
 }
 
-vector<TransactionInfo> Member::getTransactionInfoList() {	
+vector<TransactionInfo> Member::getTransactionInfoList() {
 	vector<TransactionInfo> tList;
 	for (int i = 0; i < TransactionInfoList.size(); i++) {
 		if (TransactionInfoList[i].getBuyer().id == this->id) {
 			tList.push_back(TransactionInfoList[i]);
 		}
 	}
-	
+
 	return tList;
 }
 
-void Member::addPurchaseInfo(Product product) {	// 구매내역 추가
+void Member::addPurchaseInfo(Product product) {
 	Member tmp;
 
 	for (int i = 0; i < memberList.size(); i++) {
@@ -72,11 +72,11 @@ void Member::addPurchaseInfo(Product product) {	// 구매내역 추가
 	TransactionInfo::createTransInfo(tmp, *this, product);
 }
 
-void Member::addSaleProduct(string productName, string productCompany, int price, int quantity) {	// 판매 의류 등록
+void Member::addSaleProduct(string productName, string productCompany, int price, int quantity) {
 	Product::createProduct(this->id, productName, productCompany, price, quantity);
 }
 
-vector<TransactionInfo> Member::getSaleProductList() {	// 판매 의류 조회
+vector<TransactionInfo> Member::getSaleProductList() {
 	vector<TransactionInfo> tList;
 	for (int i = 0; i < TransactionInfoList.size(); i++) {
 		if (TransactionInfoList[i].getSeller().id == this->id) {

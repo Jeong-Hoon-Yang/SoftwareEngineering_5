@@ -1,5 +1,8 @@
 #include <iostream>
 #include <fstream>
+#include "member.h"
+#include "product.h"
+#include "transactionInfo.h"
 
 using namespace std;
 
@@ -12,12 +15,12 @@ void program_exit();
 
 //FILE* in_fp, * out_fp;
 
-// íŒŒì¼ ì…ì¶œë ¥ì„ ìœ„í•œ ì´ˆê¸°í™”
+// ÆÄÀÏ ÀÔÃâ·ÂÀ» À§ÇÑ ÃÊ±âÈ­
 ifstream in_fp(INPUT_FILE_NAME);
 ofstream out_fp(OUTPUT_FILE_NAME);
 
 int main() {
-	
+
 	doTask();
 
 
@@ -26,105 +29,105 @@ int main() {
 
 void doTask() {
 	cout << "doTask() start" << endl;
-	int menu_level_1 = 0, menu_level_2=0;
+	int menu_level_1 = 0, menu_level_2 = 0;
 	int is_program_exit = 0;
 
 	while (!is_program_exit) {
-		// ì…ë ¥íŒŒì¼ì—ì„œ ë©”ë‰´ ìˆ«ì 2ê°œ ì½ê¸°
+		// ÀÔ·ÂÆÄÀÏ¿¡¼­ ¸Ş´º ¼ıÀÚ 2°³ ÀĞ±â
 		in_fp >> menu_level_1 >> menu_level_2;
 		cout << menu_level_1 << " " << menu_level_2 << endl;
 
-		switch (menu_level_1) 
+		switch (menu_level_1)
 		{
-		case 1: 
-		{ // íšŒì› ê°€ì…, íšŒì› íƒˆí‡´
-			switch (menu_level_2) 
+		case 1:
+		{ // È¸¿ø °¡ÀÔ, È¸¿ø Å»Åğ
+			switch (menu_level_2)
 			{
-			case 1: { // íšŒì› ê°€ì…
-				cout << "íšŒì› ê°€ì…" << endl;
+			case 1: { // È¸¿ø °¡ÀÔ
+				cout << "È¸¿ø °¡ÀÔ" << endl;
 				break;
 			}
-			case 2: { // íšŒì› íƒˆí‡´
-				cout << "íšŒì› íƒˆí‡´" << endl;
-				break;
-			}
-			}
-			break;
-		}
-
-		case 2: 
-		{ // ë¡œê·¸ì¸, ë¡œê·¸ì•„ì›ƒ
-			switch (menu_level_2) {
-			case 1: { // ë¡œê·¸ì¸
-				cout << "ë¡œê·¸ì¸" << endl;
-				break;
-			}
-			case 2: { // ë¡œê·¸ì•„ì›ƒ
-				cout << "ë¡œê·¸ì•„ì›ƒ" << endl;
+			case 2: { // È¸¿ø Å»Åğ
+				cout << "È¸¿ø Å»Åğ" << endl;
 				break;
 			}
 			}
 			break;
 		}
 
-		case 3: 
-		{ // íŒë§¤ ì˜ë¥˜ ë“±ë¡, ë“±ë¡ ìƒí’ˆ ì¡°íšŒ, íŒë§¤ ì™„ë£Œ ìƒí’ˆ ì¡°íšŒ
+		case 2:
+		{ // ·Î±×ÀÎ, ·Î±×¾Æ¿ô
 			switch (menu_level_2) {
-			case 1: { // íŒë§¤ ì˜ë¥˜ ë“±ë¡
-				cout << "íŒë§¤ ì˜ë¥˜ ë“±ë¡" << endl;
+			case 1: { // ·Î±×ÀÎ
+				cout << "·Î±×ÀÎ" << endl;
 				break;
 			}
-			case 2: { // ë“±ë¡ ìƒí’ˆ ì¡°íšŒ
-				cout << "ë“±ë¡ ìƒí’ˆ ì¡°íšŒ" << endl;
-				break;
-			}
-			case 3: { // íŒë§¤ ì™„ë£Œ ìƒí’ˆ ì¡°íšŒ
-				cout << "íŒë§¤ ì™„ë£Œ ìƒí’ˆ ì¡°íšŒ" << endl;
+			case 2: { // ·Î±×¾Æ¿ô
+				cout << "·Î±×¾Æ¿ô" << endl;
 				break;
 			}
 			}
 			break;
 		}
 
-		case 4: 
-		{ // ìƒí’ˆ ì •ë³´ ê²€ìƒ‰, ìƒí’ˆ êµ¬ë§¤, ìƒí’ˆ êµ¬ë§¤ ë‚´ì—­ ì¡°íšŒ, ìƒí’ˆ êµ¬ë§¤ë§Œì¡±ë„ í‰ê°€
+		case 3:
+		{ // ÆÇ¸Å ÀÇ·ù µî·Ï, µî·Ï »óÇ° Á¶È¸, ÆÇ¸Å ¿Ï·á »óÇ° Á¶È¸
 			switch (menu_level_2) {
-			case 1: { // ìƒí’ˆ ì •ë³´ ê²€ìƒ‰
-				cout << "ìƒí’ˆ ì •ë³´ ê²€ìƒ‰" << endl;
+			case 1: { // ÆÇ¸Å ÀÇ·ù µî·Ï
+				cout << "ÆÇ¸Å ÀÇ·ù µî·Ï" << endl;
 				break;
 			}
-			case 2: { // ìƒí’ˆ êµ¬ë§¤
-				cout << "ìƒí’ˆ êµ¬ë§¤" << endl;
+			case 2: { // µî·Ï »óÇ° Á¶È¸
+				cout << "µî·Ï »óÇ° Á¶È¸" << endl;
 				break;
 			}
-			case 3: { // ìƒí’ˆ êµ¬ë§¤ ë‚´ì—­ ì¡°íšŒ
-				cout << "ìƒí’ˆ êµ¬ë§¤ ë‚´ì—­ ì¡°íšŒ" << endl;
-				break;
-			}
-			case 4: { // ìƒí’ˆ êµ¬ë§¤ë§Œì¡±ë„ í‰ê°€
-				cout << "ìƒí’ˆ êµ¬ë§¤ë§Œì¡±ë„ í‰ê°€" << endl;
+			case 3: { // ÆÇ¸Å ¿Ï·á »óÇ° Á¶È¸
+				cout << "ÆÇ¸Å ¿Ï·á »óÇ° Á¶È¸" << endl;
 				break;
 			}
 			}
 			break;
 		}
 
-		case 5: 
-		{ // íŒë§¤ ìƒí’ˆ í†µê³„
+		case 4:
+		{ // »óÇ° Á¤º¸ °Ë»ö, »óÇ° ±¸¸Å, »óÇ° ±¸¸Å ³»¿ª Á¶È¸, »óÇ° ±¸¸Å¸¸Á·µµ Æò°¡
 			switch (menu_level_2) {
-			case 1: { // íŒë§¤ ìƒí’ˆ í†µê³„
-				cout << "íŒë§¤ ìƒí’ˆ í†µê³„" << endl;
+			case 1: { // »óÇ° Á¤º¸ °Ë»ö
+				cout << "»óÇ° Á¤º¸ °Ë»ö" << endl;
+				break;
+			}
+			case 2: { // »óÇ° ±¸¸Å
+				cout << "»óÇ° ±¸¸Å" << endl;
+				break;
+			}
+			case 3: { // »óÇ° ±¸¸Å ³»¿ª Á¶È¸
+				cout << "»óÇ° ±¸¸Å ³»¿ª Á¶È¸" << endl;
+				break;
+			}
+			case 4: { // »óÇ° ±¸¸Å¸¸Á·µµ Æò°¡
+				cout << "»óÇ° ±¸¸Å¸¸Á·µµ Æò°¡" << endl;
 				break;
 			}
 			}
 			break;
 		}
 
-		case 6: 
-		{ // ì¢…ë£Œ
+		case 5:
+		{ // ÆÇ¸Å »óÇ° Åë°è
 			switch (menu_level_2) {
-			case 1: { // ì¢…ë£Œ
-				cout << "ì¢…ë£Œ" << endl;
+			case 1: { // ÆÇ¸Å »óÇ° Åë°è
+				cout << "ÆÇ¸Å »óÇ° Åë°è" << endl;
+				break;
+			}
+			}
+			break;
+		}
+
+		case 6:
+		{ // Á¾·á
+			switch (menu_level_2) {
+			case 1: { // Á¾·á
+				cout << "Á¾·á" << endl;
 				program_exit();
 				is_program_exit = 1;
 				break;
@@ -138,5 +141,5 @@ void doTask() {
 }
 
 void program_exit() {
-	out_fp << "6.1 ì¢…ë£Œ" << endl;
+	out_fp << "6.1 Á¾·á" << endl;
 }

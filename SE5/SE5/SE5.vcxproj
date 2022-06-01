@@ -131,7 +131,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="member.cpp" />
     <ClCompile Include="product.cpp" />
-    <ClCompile Include="transacrionInfo.cpp" />
+    <ClCompile Include="transactionInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="join.h" />
