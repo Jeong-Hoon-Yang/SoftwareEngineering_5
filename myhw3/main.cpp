@@ -1,12 +1,26 @@
 #include <iostream>
 #include <fstream>
 #include "join.h"
+#include "login.h"
+#include "logout.h"
+#include "withdraw.h"
+#include "regsaleproduct.h"
+#include "showRegProduct.h"
+#include "showSoldProduct.h"
+#include "serachProduct.h"
+#include "showStatistic.h"
+#include "showPurInfo.h"
+#include "evalSatisfaction.h"
+#include "purchase.h"
 
 using namespace std;
 
 #define MAX_STRING 32
 #define INPUT_FILE_NAME "input.txt"
 #define OUTPUT_FILE_NAME "output.txt"
+
+Member presentmember;
+Product presentproduct;
 
 void doTask();
 void program_exit();
@@ -48,6 +62,7 @@ void doTask() {
 			}
 			case 2: { // 회원 탈퇴
 				cout << "회원 탈퇴" << endl;
+				//Withdraw Withdraw(&in_fp, &out_fp, presentmember);
 				break;
 			}
 			}
@@ -59,10 +74,16 @@ void doTask() {
 			switch (menu_level_2) {
 			case 1: { // 로그인
 				cout << "로그인" << endl;
+				Login login;
+				presentmember = login.showresult(&in_fp, &out_fp);
+
 				break;
 			}
 			case 2: { // 로그아웃
 				cout << "로그아웃" << endl;
+				Logout Logout(&in_fp, &out_fp,presentmember);
+				presentmember = nousemember;
+				cout << presentmember.getId() << endl;
 				break;
 			}
 			}
@@ -74,14 +95,17 @@ void doTask() {
 			switch (menu_level_2) {
 			case 1: { // 판매 의류 등록
 				cout << "판매 의류 등록" << endl;
+				RegSaleProduct RegSaleProduct(&in_fp, &out_fp,presentmember);
 				break;
 			}
 			case 2: { // 등록 상품 조회
 				cout << "등록 상품 조회" << endl;
+				showRegProduct showRegProduct(&in_fp, &out_fp, presentmember.getId());
 				break;
 			}
 			case 3: { // 판매 완료 상품 조회
 				cout << "판매 완료 상품 조회" << endl;
+				showSoldProduct showSoldProduct(&in_fp, &out_fp, presentmember.getId());
 				break;
 			}
 			}
@@ -93,18 +117,23 @@ void doTask() {
 			switch (menu_level_2) {
 			case 1: { // 상품 정보 검색
 				cout << "상품 정보 검색" << endl;
+				SearchProduct searchproduct;
+				presentproduct = searchproduct.showresult(&in_fp, &out_fp);
 				break;
 			}
 			case 2: { // 상품 구매
 				cout << "상품 구매" << endl;
+				Purchase Purchase(&in_fp, &out_fp, presentmember, presentproduct);
 				break;
 			}
 			case 3: { // 상품 구매 내역 조회
 				cout << "상품 구매 내역 조회" << endl;
+				showPurInfo showPurInfo(&in_fp, &out_fp, presentmember.getId());
 				break;
 			}
 			case 4: { // 상품 구매만족도 평가
 				cout << "상품 구매만족도 평가" << endl;
+				evalSatisfaction evalSatisfaction(&in_fp, &out_fp);
 				break;
 			}
 			}
@@ -116,6 +145,7 @@ void doTask() {
 			switch (menu_level_2) {
 			case 1: { // 판매 상품 통계
 				cout << "판매 상품 통계" << endl;
+				showStatistic showStatistic(&in_fp, &out_fp, presentmember.getId());
 				break;
 			}
 			}

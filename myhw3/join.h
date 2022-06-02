@@ -26,3 +26,4 @@ public:
 	Memberinfo getinfo(ifstream* in, ofstream* out); // 정보 받아옴
 	void outputresult(ifstream* in, ofstream* out); // 정보 적음
 };
+

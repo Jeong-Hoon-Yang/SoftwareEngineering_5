@@ -1,5 +1,19 @@
-﻿  join.cpp
+﻿  evalSatisfaction.cpp
+  join.cpp
+  login.cpp
+  logout.cpp
   main.cpp
   member.cpp
+  product.cpp
+C:\Users\Kyumin\Desktop\myhw3\product.cpp(66,15): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  purchase.cpp
+  regsaleproduct.cpp
+  searchProduct.cpp
+  showPurInfo.cpp
+  showRegProduct.cpp
+  showSoldProduct.cpp
+  showStatistic.cpp
+  transactionInfo.cpp
+  withdraw.cpp
   코드를 생성하고 있습니다...
-  myhw3.vcxproj -> D:\Desktop\Folder\CE 4-1\SE\SoftwareEngineering_5\myhw3\x64\Debug\myhw3.exe
+  myhw3.vcxproj -> C:\Users\Kyumin\Desktop\myhw3\x64\Debug\myhw3.exe
