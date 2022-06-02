@@ -42,8 +42,13 @@ void Member::deleteInfoRight(Member& m) {
 	for (auto it = memberList.begin(); it != memberList.end(); it++) {
 		if (it->id == m.id) {
 			cout << m.id << endl;
+			for (auto pit = productList.begin(); pit != productList.end(); pit++) {
+				if (pit->id == m.id) {
+					productList.erase(pit);
+				}
+			}
 			memberList.erase(it);
-			// add here
+			
 			return;
 		}
 	}
@@ -85,4 +90,28 @@ vector<TransactionInfo> Member::getSaleProductList() {
 	}
 
 	return tList;
+}
+
+void Member::setId(string id) {
+	this->id = id;
+}
+
+void Member::setPassword(string password) {
+	this->password = password;
+}
+
+void Member::setName(string name) {
+	this->name = name;
+}
+
+string Member::getId() {
+	return this->id;
+}
+
+string Member::getPassword() {
+	return this->password;
+}
+
+string Member::getName() {
+	return this->name;
 }

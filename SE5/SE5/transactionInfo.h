@@ -9,9 +9,10 @@ class TransactionInfo {
 
 public:
 	Product* getProducts();
-	static void createTransInfo(Member sellor, Member buyer, Product product);
+	static void createTransInfo(Member seller, Member buyer, Product product);
 	Member getSeller();
 	Member getBuyer();
+	Product getProduct();
 	void setSeller(Member seller);
 	void setBuyer(Member buyer);
 	void setProduct(Product product);
