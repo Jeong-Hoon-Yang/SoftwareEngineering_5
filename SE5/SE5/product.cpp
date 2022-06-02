@@ -47,6 +47,34 @@ void Product::createProduct(string sellerID, string productName, string productC
 	productList.push_back(tmp);
 }
 
+void Product::setSellerID(string id) {
+	this->sellerID = id;
+}
+
+void Product::setProductName(string name) {
+	this->productName = name;
+}
+
+void Product::setProductCompany(string company) {
+	this->productCompany = company;
+}
+
+void Product::setPrice(int price) {
+	this->price = price;
+}
+
 string Product::getSellerID() {
 	return this->sellerID;
+}
+
+string Product::getProductName() {
+	return this->productName;
+}
+
+string Product::getProductCompany() {
+	return this->productCompany;
+}
+
+int Product::getPrice() {
+	return this->price;
 }

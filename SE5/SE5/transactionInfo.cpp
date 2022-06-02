@@ -5,9 +5,9 @@ Product* TransactionInfo::getProducts() {
 	return &this->product;
 }
 
-void TransactionInfo::createTransInfo(Member sellor, Member buyer, Product product) {
+void TransactionInfo::createTransInfo(Member seller, Member buyer, Product product) {
 	TransactionInfo tmp;
-	tmp.seller = sellor;
+	tmp.seller = seller;
 	tmp.buyer = buyer;
 	tmp.product = product;
 
@@ -20,6 +20,10 @@ Member TransactionInfo::getSeller() {
 
 Member TransactionInfo::getBuyer() {
 	return this->buyer;
+}
+
+Product TransactionInfo::getProduct() {
+	return this->product;
 }
 
 void TransactionInfo::setSeller(Member seller) {
