@@ -28,6 +28,12 @@ public:
 	void addPurchaseInfo(Product product);
 	void addSaleProduct(string productName, string productCompany, int price, int quantity);
 	vector<TransactionInfo> getSaleProductList();
+	void setId(string id);
+	void setPassword(string password);
+	void setName(string name);
+	string getId();
+	string getPassword();
+	string getName();
 };
 
 static vector<Member> memberList;

@@ -12,17 +12,17 @@ struct Memberinfo {
 	string password;
 };
 
-class Join { // ÄÁÆ®·Ñ Å¬·¡½º
+class Join { // ì»¨íŠ¸ë¡¤ í´ë˜ìŠ¤
 private:
 	Memberinfo memberinfo;
 public:
-	Join(ifstream* in, ofstream* out); // È¸¿ø °¡ÀÔ ÁøÇà
+	Join(ifstream* in, ofstream* out); // íšŒì› ê°€ì… ì§„í–‰
 };
 
-class JoinUI { // ¹Ù¿î´õ¸® Å¬·¡½º
+class JoinUI { // ë°”ìš´ë”ë¦¬ í´ë˜ìŠ¤
 private:
 	Memberinfo memberinfo;
 public:
-	Memberinfo getinfo(ifstream* in, ofstream* out); // Á¤º¸ ¹Ş¾Æ¿È
-	void outputresult(ifstream* in, ofstream* out); // Á¤º¸ ÀûÀ½
+	Memberinfo getinfo(ifstream* in, ofstream* out); // ì •ë³´ ë°›ì•„ì˜´
+	void outputresult(ifstream* in, ofstream* out); // ì •ë³´ ì ìŒ
 };
