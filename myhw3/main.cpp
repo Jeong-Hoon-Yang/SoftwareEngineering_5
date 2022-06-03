@@ -83,7 +83,6 @@ void doTask() {
 				cout << "·Î±×¾Æ¿ô" << endl;
 				Logout Logout(&in_fp, &out_fp,presentmember);
 				presentmember = nousemember;
-				cout << presentmember.getId() << endl;
 				break;
 			}
 			}
