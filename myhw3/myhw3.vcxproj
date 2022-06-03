@@ -127,13 +127,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="evalSatisfaction.cpp" />
     <ClCompile Include="join.cpp" />
+    <ClCompile Include="login.cpp" />
+    <ClCompile Include="logout.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="member.cpp" />
+    <ClCompile Include="product.cpp" />
+    <ClCompile Include="purchase.cpp" />
+    <ClCompile Include="showPurInfo.cpp" />
+    <ClCompile Include="withdraw.cpp" />
+    <ClCompile Include="regsaleproduct.cpp" />
+    <ClCompile Include="searchProduct.cpp" />
+    <ClCompile Include="showRegProduct.cpp" />
+    <ClCompile Include="showSoldProduct.cpp" />
+    <ClCompile Include="showStatistic.cpp" />
+    <ClCompile Include="transactionInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="evalSatisfaction.h" />
     <ClInclude Include="join.h" />
+    <ClInclude Include="login.h" />
+    <ClInclude Include="logout.h" />
     <ClInclude Include="member.h" />
+    <ClInclude Include="product.h" />
+    <ClInclude Include="purchase.h" />
+    <ClInclude Include="regsaleproduct.h" />
+    <ClInclude Include="serachProduct.h" />
+    <ClInclude Include="showPurInfo.h" />
+    <ClInclude Include="showRegProduct.h" />
+    <ClInclude Include="showSoldProduct.h" />
+    <ClInclude Include="showStatistic.h" />
+    <ClInclude Include="transactionInfo.h" />
+    <ClInclude Include="withdraw.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
