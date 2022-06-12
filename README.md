@@ -119,3 +119,8 @@
 - HW3 sourcecode Product class 완성 & Member class 제작중 (양정훈)
 
 - HW3 메뉴 파싱 (이규민)
+
+
+    22.06.03
+
+- HW3 sourcecode 제작 완료
